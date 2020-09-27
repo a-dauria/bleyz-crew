@@ -1,0 +1,56 @@
+html{
+    background: #dddddd;
+}
+
+.headLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #dddddd;
+}
+
+.svgLogin {
+    width: 15em;
+    height: 15em;
+    margin-top: 2em;
+}
+
+.formLogin {
+    width: 25%;
+}
+
+.titleBO {
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+}
+
+.relativeDiv {
+    position: relative;
+    margin-top: 2em;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.svgPlaceholder {
+    width: 2em;
+    height: 2em;
+    position: absolute;
+    left: 2.5em;
+    top: 2.2em;
+}
+
+.form-control.inputWithPlaceholder {
+    padding-left: 5em;
+    border-radius: 50px;
+}
+
+button.btnLog {
+    width: 33.33333%;
+    border-radius: 50px;
+    margin-top: 2em;
+}

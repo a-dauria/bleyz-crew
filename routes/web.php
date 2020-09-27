@@ -13,6 +13,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', 'Front\IndexController@index');
+Route::get('/login', 'Front\AuthController@viewLog');
+Route::get('/register', 'Front\AuthController@viewReg');
+
+Route::get('/validLogin', function() { return redirect()->to('/'); });
+Route::post('/validLogin', 'Front\AuthController@login');
+Route::get('/validReg', function() { return redirect()->to('/'); });
+Route::post('/validReg', 'Front\AuthController@register');
+
+
+/* Route Admin */
+Route::prefix('/admin')->group(function () {
+    Route::get('/', 'Admin\IndexController@index');
+    Route::get('/login', 'Admin\AuthController@viewLogin');
+    Route::post('/login', 'Admin\AuthController@login');
 });
