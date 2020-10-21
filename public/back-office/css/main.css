@@ -40,12 +40,12 @@ html{
     width: 2em;
     height: 2em;
     position: absolute;
-    left: 2.5em;
+    left: 1.5em;
     top: 2.2em;
 }
 
 .form-control.inputWithPlaceholder {
-    padding-left: 5em;
+    padding-left: 3.5em;
     border-radius: 50px;
 }
 

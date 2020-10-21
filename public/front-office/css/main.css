@@ -1,0 +1,49 @@
+svg.svgHeader {
+    width: 2em;
+    height: 2em;
+    margin-right: .5em;
+}
+
+.menuUser {
+    float: right;
+    background: #f7f7f7;
+    padding: .5em 1em;
+    margin-top: 2em;
+    position: relative;
+}
+
+a.linkMenu {
+    display: flex;
+    align-items: end;
+}
+
+a.linkMenu:hover,
+a.linkMenu:focus {
+    text-decoration: none;
+}
+
+div.arrowMenu {
+    width: 0;
+    height: 0;
+    border: 1.5em solid transparent;
+    float: right;
+    position: absolute;
+    bottom: 100%;
+    right: 1em;
+    border-bottom-color: #f7f7f7;
+}
+
+.logoAccueil {
+    float: left;
+}
+
+.svgAccueil {
+    width: 3em;
+    height: 2em;
+}
+
+.flexRight {
+    display: inline-flex;
+    justify-content: right;
+    align-items: flex-end;
+}
